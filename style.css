@@ -454,82 +454,82 @@ footer .line-footer p a {
 }
 
 /*RESPONSIVO - Ajustes para telas menores (max-width: 1232px)*/
-@media screen and (max-width: 768px){
-  /*CLASSES GERAIS*/
+@media screen and (max-width: 480px) {
+  /* CLASSES GERAIS */
   .flex {
-    flex-direction: column; 
+    flex-direction: column;
   }
 
-  /*CABEÇALHO*/
+  /* CABEÇALHO */
   .menu-desktop,
   .btn-contato {
-    display: none; /* Oculta o menu desktop e botão de contato em telas pequenas. */
+    display: none;
   }
 
-  /*TOPO SITE*/
+  /* TOPO SITE */
   .toposite h1 {
-    font-size: 2rem; 
+    font-size: 1.5rem;
   }
   section.toposite {
-    padding: 20px 8%;
+    padding: 20px 6%;
   }
 
-  /*SOBRE*/
+  /* SOBRE */
   .sobre .img-sobre img {
-    width: 75%;
+    width: 90%;
     display: block;
     margin: 0 auto;
   }
   section.sobre {
-    padding: 8%;
+    padding: 6%;
   }
 
   .social-icon {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
   }
 
-  /* ESPECIALIDADE*/
+  /* ESPECIALIDADE */
   section.habilidade {
-    padding: 40px 8%;
+    padding: 30px 6%;
   }
 
-  /*LOGO*/
-
+  /* LOGO */
   .logo {
     display: block;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
     padding: 1rem 0;
-    height: 170px;
-    width: 175px;
+    height: 140px;
+    width: 145px;
   }
   .logo img {
-    width: 200px;
-    height: auto; /* mantém a proporção da imagem */
+    width: 150px;
+    height: auto;
   }
 
-  /*PORTFOLIO*/
+  /* PORTFÓLIO */
   section.projeto {
-    padding: 80px 8%;
+    padding: 60px 6%;
   }
   .img-projeto {
     width: 100%;
-    max-width: 360px; 
+    max-width: 320px;
     margin: 0 auto;
   }
   section.projeto .flex {
-    gap: 50px;
+    gap: 40px;
   }
 
-  /*RODAPE*/
+  /* RODAPÉ */
   footer .line-footer {
     text-align: center;
   }
 
   .logo-footer img {
-    width: 200px;
+    width: 150px;
     height: auto;
   }
 }
+
