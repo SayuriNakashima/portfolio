@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"/>
+    <!-- Ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="menu.js" defer></script>
+
+    <title>Portfólio | Sayuri Nakashima</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="interface"> <!-- area principal do topo do site -->
+
+        <div class="logo"> <!-- logo do site -->
+          <a href="#">
+            <img src="img/logo.png" alt="Logo" height="170px" width="175px"/>
+          </a>
+        </div>
+        <!--logo-->
+
+        <nav class="menu-desktop"> <!-- menu com links -->
+          <ul>
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#sobre">Sobre mim</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+          </ul>
+        </nav>
+
+        <div class="btn-contato"> <!-- Botão de contato no topo -->
+          <a href="#">
+            <button>Contato</button>
+          </a>
+        </div>
+        <!--button ctt-->
+
+        <div class="btn-abrir-menu" id="btn-menu">
+          <i class="fas fa-bars"></i>
+        </div>
+
+        <div class="menu-mobile" id="menu-mobile">
+          <div class="btn-fechar">
+            <i class="fa fa-times"></i>
+          </div>
+
+          <nav> <!-- menu mobile -->
+            <ul>
+              <li><a href="#inicio">Início</a></li>
+              <li><a href="#sobre">Sobre mim</a></li>
+              <li><a href="#habilidades">Habilidades</a></li>
+              <li><a href="#projetos">Projetos</a></li>
+              <li><a href="#contato">Contato</a></li>
+            </ul>
+          </nav>
+        </div><!--menu mobile-->
+
+        <div class="overlay-menu" id="overlay-menu"></div>
+
+      </div><!--interface-->
+    </header>
+
+    <main>
+      <section class="toposite"> <!-- Primeira seção do conteúdo -->
+        <div class="interface">
+          <div class="flex">
+
+            <div class="txt-topo-site"> <!-- Texto da apresentação -->
+              <h4><span>Olá</span>, me chamo</h4>
+              <h1>Sayuri Nakashima</h1>
+              <h2>Full Stack <span>Developer in training</span> <span>.</span></h2>
+
+              <div class="btn-contato">
+                <a
+                  href="https://www.canva.com/design/DAGkF_vK1PA/yNeRmAySrWMMEY1HIoHxZw/edit?utm_content=DAGkF_vK1PA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+                  download
+                  style="text-decoration: none;"
+                >
+                  <button>Download CV</button>
+                </a>
+              </div>
+            </div>
+            <!--txt topo site-->
+
+          </div>
+          <!--flex-->
+        </div>
+        <!--interface-->
+      </section>
+      <!--topo site-->
+
+      <section class="sobre"> <!-- Segunda seção: sobre mim -->
+        <div class="interface">
+          <div class="flex">
+
+            <div class="img-sobre">
+              <img src="img/eu.jpeg" alt="" width="350" />
+            </div>
+            <!--img topo site-->
+
+            <div class="txt-sobre"> <!-- Texto com descrição -->
+              <h2>SOBRE <span>MIM</span></h2>
+              <p>
+                Sou estudante de Sistemas de Informação e técnica em Informática, com foco em desenvolvimento Full Stack. Tenho experiência prática em front-end,
+                utilizando tecnologias como HTML, CSS e JavaScript, e venho expandindo meus conhecimentos em back-end para construir aplicações web completas.
+              </p>
+              <p>
+                Atualmente, estou aprofundando meus estudos em desenvolvimento web com o objetivo de unir criatividade e tecnologia para entregar soluções funcionais e
+                bem estruturadas.
+              </p>
+              <p>
+                Estou em busca de oportunidades que me permitam crescer profissionalmente,
+                aplicar meus conhecimentos em projetos reais e contribuir com ideias inovadoras dentro de times colaborativos.
+              </p>
+
+              <div class="btn-social"> <!-- Ícones com links -->
+                <a
+                  href="https://www.instagram.com/sayxz._/"
+                  target="_blank"
+                  class="social-icon insta"
+                  aria-label="Instagram"
+                >
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/sayuri-nakashima/"
+                  target="_blank"
+                  class="social-icon linkedin"
+                  aria-label="LinkedIn"
+                >
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a
+                  href="https://github.com/sasa76543"
+                  target="_blank"
+                  class="social-icon github"
+                  aria-label="GitHub"
+                >
+                  <i class="fab fa-github"></i>
+                </a>
+
+              </div>
+              <!--social-->
+
+            </div>
+            <!--txt sobre-->
+
+          </div>
+        </div>
+      </section>
+  
+      <section class="habilidade">
+        <div class="interface">
+          <h2 class="titulo">HABILIDADES<span>.</span></h2>
+          <div class="flex">
+
+            <div class="habilidade-box">
+              <i class="fab fa-html5" title="HTML" style="color: #e44d26;"></i>
+              <h3>HTML</h3>
+              <p>Estrutura o conteúdo da web com tags.</p>
+            </div>
+
+            <div class="habilidade-box">
+              <i class="fab fa-css3-alt" title="CSS" style="color: #264de4;"></i>
+              <h3>CSS</h3>
+              <p>Define o visual dos elementos HTML.</p>
+            </div>
+
+            <div class="habilidade-box">
+              <i class="fab fa-js" title="JavaScript" style="color: #f0db4f;"></i>
+              <h3>JS</h3>
+              <p>Adiciona interatividade às páginas.</p>
+            </div>
+
+            <div class="habilidade-box">
+              <i class="fas fa-database" style="color: #4479A1;"></i>
+              <h3>SQL</h3>
+              <p>Gerencia dados em bancos de dados.</p>
+            </div>
+
+
+          </div>
+        </div>
+      </section>
+  
+
+      <section class="projeto">
+      <div class="interface">
+        <h2 class="titulo">PROJETOS<span>.</span></h2>
+        <div class="flex">
+
+        <a href="https://sasa76543.github.io/Country-Slider/" target="_blank">
+          <div class="img-projeto" style="background-image: url(img/img.jpg);">
+            <div class="overlay">Country Slider</div>
+          </div>
+        </a> 
+
+        <div class="img-projeto" style="background-image: url(img/imagem.jpg);">
+            <div class="overlay">Projeto 2</div>
+        </div>
+          
+          <div class="img-projeto" style="background-image: url(img/imagem.jpg);">
+            <div class="overlay">Projeto 3</div>
+          </div>
+        </div><!--flex-->
+      </div><!--interf-->
+      </section><!--projeto-->
+
+
+      <section class="formulario">
+        <div class="interface">
+          <h2 class="titulo">CONTATO<span>.</span></h2>
+          <form action="https://formsubmit.co/sayurinakashimac@gmail.com" method="POST">
+            <input type="text" name="nome" id="nome" placeholder="Digite seu nome" required>
+            <input type="email" name="email" id="email" placeholder="Digite seu e-mail" required>
+            <textarea name="mensagem" id="mensagem" placeholder="Escreva sua mensagem aqui..." required></textarea>
+            <div class="btn-enviar">
+              <input type="submit" class="submit" value="ENVIAR">
+            </div>            
+            </form>
+
+          </div> <!--contato-->
+        </div><!--interf-->
+      </section><!--formulario-->
+    </main>
+
+    <footer>
+      <div class="interface">
+        <div class="line-footer">
+          <div class="flex">
+            <div class="logo-footer">
+              <img src="img/logo.png" height="180px" width="175px" alt="Sayuri Nakashima">
+            </div><!--logo footer-->
+
+              <div class="btn-social"> <!-- Ícones com links -->
+                <a
+                  href="https://www.instagram.com/sayxz._/"
+                  target="_blank"
+                  class="social-icon insta"
+                  aria-label="Instagram"
+                >
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/sayuri-nakashima/"
+                  target="_blank"
+                  class="social-icon linkedin"
+                  aria-label="LinkedIn"
+                >
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a
+                  href="https://github.com/sasa76543"
+                  target="_blank"
+                  class="social-icon github"
+                  aria-label="GitHub"
+                >
+                  <i class="fab fa-github"></i>
+                </a>
+                <a
+                href="mailto:sayurinakashimac@gmail.com"
+                target="_blank"
+                class="social-icon email"
+                aria-label="Email"
+              >
+                <i class="fas fa-envelope"></i>
+              </a>
+
+            </div><!--btn social-->
+          </div>
+        </div><!--line footer-->
+      </div>
+    </footer>
+
+  </body>
+</html>
+
