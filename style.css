@@ -454,7 +454,7 @@ footer .line-footer p a {
 }
 
 /*RESPONSIVO - Ajustes para telas menores (max-width: 1232px)*/
-@media screen and (max-width: 1232px) {
+@media screen and (max-width: 768px){
   /*CLASSES GERAIS*/
   .flex {
     flex-direction: column; 
