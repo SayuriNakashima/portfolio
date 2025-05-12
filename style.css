@@ -7,13 +7,13 @@
 }
 /*ESTILO TÍTULO H2 (habilidades)*/
 h2.titulo {
-  color: #ffffff;
+  color: #000000;
   font-size: 38px;
   text-align: center;
 }
 /*ESTILO DO CORPO DA PÁGINA*/
 body {
-  background-color: black;
+  background-color: white; /* Alterado de preto para branco */
   height: 100vh; 
   width: 60;
 }
@@ -36,7 +36,7 @@ body {
   border: 0;
   border-radius: 50px;
   cursor: pointer;
-  color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255); 
   transition: 0.2s;
   text-decoration: none;
   margin: 0 auto;
@@ -63,14 +63,14 @@ header > .interface {
 }
 /*LINKS DO MENU - Estiliza os links do cabeçalho.*/
 header a {
-  color: rgb(125, 122, 122);
+  color: rgb(118, 118, 118); 
   text-decoration: none;
   display: inline-block;
   transition: 0.2s;
 }
 /*EFEITO HOVER NOS LINKS DO MENU - Estilo quando o mouse passa sobre o link.*/
 header nav.menu-desktop a:hover {
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0); 
   text-decoration: none;
   transform: scale(1.05); 
 }
@@ -92,7 +92,7 @@ header nav.menu-desktop li {
   line-height: 1;
 }
 .menu-mobile {
-  background-color: black;
+  background-color: white; 
   height: 100vh;
   position: fixed;
   top: 0;
@@ -125,7 +125,7 @@ header nav.menu-desktop li {
 }
 
 .menu-mobile nav li a {
-  color: white;
+  color: black; 
   font-size: 20px;
   font-weight: 300;
   padding: 20px 8%;
@@ -160,14 +160,14 @@ section.toposite .flex {
 }
 
 .toposite h1 {
-  color: #fff;
+  color: #000000; 
   font-size: 50px;
   line-height: 10px;
   text-align: center;
 }
 
 .toposite h4 {
-  color: white;
+  color: black; 
   text-align: center;
   font-size: 25px;
 }
@@ -183,7 +183,7 @@ section.toposite .flex {
 }
 
 .toposite .txt-topo-site h2 {
-  color: #fff;
+  color: black; 
   margin: 40px 0px;
   text-align: center;
 }
@@ -202,7 +202,7 @@ section.sobre .flex {
 
 /* Texto geral da seção sobre */
 .sobre .txt-sobre {
-  color: #fff; 
+  color: black;
 }
 
 .sobre .txt-sobre h2 {
@@ -215,7 +215,7 @@ section.sobre .flex {
 /* Parte em destaque do título (o ponto final) */
 .sobre .txt-sobre h2 span {
   font-size: 40px;
-  color: #ffffff;
+  color: #000000;  
   text-align: center;
 }
 
@@ -225,7 +225,7 @@ section.sobre .flex {
   text-align: justify; 
   line-height: 1.6;
   font-size: 15px;
-  color: white;
+  color: black; 
 }
 
 .sobre .img-sobre img {
@@ -249,7 +249,7 @@ section.sobre .flex {
   display: flex; 
   justify-content: center; 
   gap: 20px; /* Espaço entre os ícones */
-  color: #ffffff;
+  color: black; 
   font-size: 20px;
   margin-right: 20px;
   transition: 0.3s;
@@ -263,7 +263,7 @@ section.sobre .flex {
   height: 40px; /* altura icone */
   border-radius: 50%; 
   font-size: 26px; /* tamanho do ícone */
-  color: #fff; 
+  color: rgb(255, 255, 255);
   transition: 0.3s ease-in-out; 
   text-decoration: none; 
 }
@@ -285,7 +285,7 @@ section.sobre .flex {
 /*ESTILO DA SEÇÃO HABILIDADE*/
 section.habilidade {
   padding: 50px 4%; 
-  box-shadow: 0 0 40px 0px rgba(185, 184, 185, 0.219);
+  box-shadow: 0 0 40px 0px rgba(225, 224, 224, 0.219);
   margin-top: 50px;
 }
 
@@ -293,28 +293,27 @@ section.habilidade .flex {
   gap: 70px;
   margin-top: 60px;
   margin-bottom: 40px;
+
 }
 
 section.habilidade h2.titulo span {
   color: #8800ff;
 }
 
-section.habilidade h2.titulo {
-  padding: 80px 4%;
-}
 
 .habilidade .habilidade-box {
-  color: white;
+  color: black; 
   padding: 30px;
   border-radius: 20px;
   font-size: 15px;
   margin-top: 30px;
   transition: 0.2s;
+  
 }
 
 .habilidade .habilidade-box:hover {
   transform: scale(1.05);
-  box-shadow: 0 0 20px rgba(255, 255, 255, 0.492);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.492); 
 }
 
 .habilidade .habilidade-box i {
@@ -330,11 +329,11 @@ section.habilidade h2.titulo {
 /*ESTILO DA SEÇÃO PROJETO*/
 section.projeto {
   padding: 50px 4%;
-  box-shadow: 0 0 40px 0px rgba(185, 184, 185, 0.219);/*deslocam horiz, deslocam vert, desfoque, espalhamento, cor*/
+  box-shadow: 0 0 40px 0px  rgba(166, 166, 166, 0.219);/*deslocam horiz, deslocam vert, desfoque, espalhamento, cor*/
 }
 
 section.projeto .titulo {
-  color: #ffffff;
+  color: black; 
 }
 
 section.projeto h2.titulo span {
@@ -374,7 +373,7 @@ section.projeto .flex {
   justify-content: center;
   font-size: 24px;
   font-weight: 600;
-  color: white;
+  color: rgb(255, 255, 255); 
   opacity: 0;
   transition: 1.5s;
 }
@@ -384,7 +383,8 @@ section.projeto .flex {
 }
 /*ESTILO DA SEÇÃO FORMULÁRIO*/
 section.formulario {
-  padding: 80px 4%;
+  padding: 50px 4%;
+  box-shadow: 0 0 40px 0px rgba(166, 166, 166, 0.219);
 }
 
 section.formulario h2.titulo span {
@@ -404,12 +404,12 @@ form {
 form input,
 textarea {
   width: 100%;
-  background-color: #5e5d5d57;
+  background-color: #f7f6f6;
   border: 0;
   border-radius: 20px;
   outline: 0;
   padding: 20px 15px; /*em cima, baixo, esq, direito*/
-  color: white;
+  color: black; /* Alterado de branco para preto */
   font-size: 17px;
 }
 
@@ -426,6 +426,7 @@ form .btn-enviar {
 form .btn-enviar input {
   width: 120px;
   background-color: #8800ff;
+  color: white;
   font-weight: 700;
   cursor: pointer;
   transition: 0.2s;
@@ -433,28 +434,22 @@ form .btn-enviar input {
 
 /*ESTILO DO RODAPÉ*/
 footer {
-  padding: 30px 4%;
-  box-shadow: 0 0 40px 0px rgba(185, 184, 185, 0.219);
+  background-color: #f7f6f6;
+  color: black; /* Alterado de branco para preto */
+  text-align: center;
+  padding: 20px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
 }
 
-footer .flex {
-  justify-content: space-between; /*apenas c display flex*/
-}
-
-footer .line-footer p i {
-  /*icones*/
-  color: #8800ff;
-  font-size: 22px;
-  gap: 10px;
-}
-
-footer .line-footer p a {
-  /*link*/
-  color: rgba(255, 255, 255, 0.444);
+footer p {
+  margin: 0;
+  font-size: 14px;
 }
 
 /*RESPONSIVO - Ajustes para telas menores (max-width: 1232px)*/
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 1230px) {
   /* CLASSES GERAIS */
   .flex {
     flex-direction: column;
@@ -522,14 +517,4 @@ footer .line-footer p a {
     gap: 40px;
   }
 
-  /* RODAPÉ */
-  footer .line-footer {
-    text-align: center;
-  }
-
-  .logo-footer img {
-    width: 150px;
-    height: auto;
-  }
 }
-
