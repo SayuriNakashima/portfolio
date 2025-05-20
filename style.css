@@ -46,7 +46,7 @@ body {
 /*EFEITO HOVER - Efeito quando o mouse passa sobre o botão.*/
 button:hover,
 form .btn-enviar input:hover {
-  box-shadow: 0px 0px 9px #cc00ff;
+  box-shadow: 0px 0px 9px #4e0361;
   transform: scale(1.05); 
 }
 
@@ -308,12 +308,13 @@ section.habilidade h2.titulo span {
   font-size: 15px;
   margin-top: 30px;
   transition: 0.2s;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.492); 
   
 }
 
 .habilidade .habilidade-box:hover {
   transform: scale(1.05);
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.492); 
+ 
 }
 
 .habilidade .habilidade-box i {
