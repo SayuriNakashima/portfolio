@@ -42,7 +42,6 @@ Informações para contato direto e links para redes sociais profissionais, faci
 
 - Email: [sayurinakashimac@gmail.com]
 - LinkedIn: [https://www.linkedin.com/in/sayuri-nakashima]
-<br/>
 
 ---
 
