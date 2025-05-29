@@ -43,6 +43,7 @@ Informações para contato direto e links para redes sociais profissionais, faci
 - Email: sayurinakashimac@gmail.com
 <br/>
 -LinkedIn: [https://www.linkedin.com/in/sayuri-nakashima](https://www.linkedin.com/in/sayuri-nakashima)
+<br/>
 
 ---
 
