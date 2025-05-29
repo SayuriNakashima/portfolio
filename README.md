@@ -1,4 +1,4 @@
-📁 Portfólio Pessoal
+#📁 Portfólio Pessoal
 
 Este projeto foi desenvolvido com o propósito de me destacar no mercado de trabalho, apresentando meu perfil profissional de forma organizada, visualmente atrativa e funcional. Além disso, serve como uma ferramenta para o aprimoramento contínuo das minhas habilidades em desenvolvimento web.
 
@@ -42,7 +42,7 @@ Informações para contato direto e links para redes sociais profissionais, faci
 
 - Email: [sayurinakashimac@gmail.com]
 -LinkedIn: [https://www.linkedin.com/in/sayuri-nakashima](https://www.linkedin.com/in/sayuri-nakashima)
-Instagram: [https://www.instagram.com/sayxz._](https ://www.instagram.com/sayxz._)
+
 ---
 
 💡 *Este portfólio está em constante evolução. Sinta-se à vontade para explorar e acompanhar minhas atualizações!*
