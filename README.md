@@ -1,4 +1,4 @@
-#📁 Portfólio Pessoal
+# 📁 Portfólio Pessoal
 
 Este projeto foi desenvolvido com o propósito de me destacar no mercado de trabalho, apresentando meu perfil profissional de forma organizada, visualmente atrativa e funcional. Além disso, serve como uma ferramenta para o aprimoramento contínuo das minhas habilidades em desenvolvimento web.
 
