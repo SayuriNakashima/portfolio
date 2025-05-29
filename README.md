@@ -40,7 +40,8 @@ Apresentação dos projetos que desenvolvi, com descrições, imagens e links pa
 ### 📞 Contatos
 Informações para contato direto e links para redes sociais profissionais, facilitando a conexão com recrutadores, empresas e outros profissionais da área.
 
-- Email: [sayurinakashimac@gmail.com]
+- Email: sayurinakashimac@gmail.com
+<br/>
 -LinkedIn: [https://www.linkedin.com/in/sayuri-nakashima](https://www.linkedin.com/in/sayuri-nakashima)
 
 ---
