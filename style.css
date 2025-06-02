@@ -319,7 +319,6 @@ section.habilidade h2.titulo span {
 
 .habilidade .habilidade-box:hover {
   transform: scale(1.05);
- 
 }
 
 .habilidade .habilidade-box i {
@@ -331,6 +330,93 @@ section.habilidade h2.titulo span {
   font-size: 26px;
   margin: 15px 0;
 }
+
+section.softskills {
+  padding: 50px 4%; 
+  box-shadow: 0 0 40px 0px rgba(225, 224, 224, 0.219);
+  margin-top: 50px;
+}
+
+section.softskills .flex {
+  gap: 70px;
+  margin-top: 60px;
+  margin-bottom: 40px;
+
+}
+
+section.softskills h2.titulo span {
+  color: #8800ff;
+}
+
+
+.softskills .soft-box {
+  color: black; 
+  padding: 25px;
+  border-radius: 20px;
+  font-size: 15px;
+  margin-top: 5px;
+  transition: 0.2s;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.492); 
+  
+}
+
+.softskills .soft-box:hover {
+  transform: scale(1.05);
+}
+
+.softskills .soft-box i {
+  font-size: 40px;
+  align-items: center;
+}
+
+.softskills .soft-box h3 {
+  font-size: 20px;
+  margin: 15px 0;
+}
+
+section.ferramentas {
+  padding: 50px 4%; 
+  box-shadow: 0 0 40px 0px rgba(225, 224, 224, 0.219);
+  margin-top: 50px;
+}
+
+section.ferramentas .flex {
+  gap: 70px;
+  margin-top: 60px;
+  margin-bottom: 40px;
+
+}
+
+section.ferramentas h2.titulo span {
+  color: #8800ff;
+}
+
+
+.ferramentas .ferramentas-box {
+  color: black; 
+  padding: 20px;
+  border-radius: 20px;
+  font-size: 15px;
+  margin-top: 5px;
+  transition: 0.2s;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.492);  
+}
+
+
+.ferramentas .ferramentas-box:hover {
+  transform: scale(1.05);
+}
+
+.ferramentas .ferramentas-box i {
+  font-size: 40px;
+  align-items: center;
+}
+
+.ferramentas .ferramentas-box h3 {
+  font-size: 20px;
+  margin: 15px 0;
+}
+
 
 /*ESTILO DA SEÇÃO PROJETO*/
 section.projeto {
