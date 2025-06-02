@@ -357,7 +357,6 @@ section.softskills h2.titulo span {
   margin-top: 5px;
   transition: 0.2s;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.492); 
-  
 }
 
 .softskills .soft-box:hover {
@@ -365,7 +364,7 @@ section.softskills h2.titulo span {
 }
 
 .softskills .soft-box i {
-  font-size: 40px;
+  font-size:1.8rem;
   align-items: center;
 }
 
