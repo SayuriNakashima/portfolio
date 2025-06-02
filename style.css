@@ -256,9 +256,9 @@ section.sobre .flex {
   gap: 20px; /* Espaço entre os ícones */
   color: black; 
   font-size: 20px;
-  margin-right: 20px;
   transition: 0.3s;
 }
+
 /* Estilo dos ícones de redes sociais (botões circulares). */
 .social-icon {
   display: flex; /* alinhar ícone no centro do círculo */
@@ -272,6 +272,8 @@ section.sobre .flex {
   transition: 0.3s ease-in-out; 
   text-decoration: none; 
 }
+
+
 
 .insta,
 .linkedin,
@@ -318,7 +320,8 @@ section.habilidade h2.titulo span {
 }
 
 .habilidade .habilidade-box:hover {
-  transform: scale(1.05);
+    transform: translateY(-4px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
 }
 
 .habilidade .habilidade-box i {
@@ -354,13 +357,14 @@ section.softskills h2.titulo span {
   padding: 25px;
   border-radius: 20px;
   font-size: 15px;
-  margin-top: 5px;
+  margin-top: 10px;
   transition: 0.2s;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.492); 
 }
 
 .softskills .soft-box:hover {
-  transform: scale(1.05);
+  transform: translateY(-4px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
 }
 
 .softskills .soft-box i {
@@ -369,8 +373,10 @@ section.softskills h2.titulo span {
 }
 
 .softskills .soft-box h3 {
-  font-size: 20px;
-  margin: 15px 0;
+  margin: 0;
+  font-size: 1.2rem;
+  color: #333;
+  font-weight: 600;
 }
 
 section.ferramentas {
@@ -403,7 +409,8 @@ section.ferramentas h2.titulo span {
 
 
 .ferramentas .ferramentas-box:hover {
-  transform: scale(1.05);
+    transform: translateY(-4px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
 }
 
 .ferramentas .ferramentas-box i {
