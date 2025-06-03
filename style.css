@@ -338,7 +338,7 @@ section.habilidade h2.titulo span {
 
 section.ferramentas {
   padding: 50px 4%; 
-  box-shadow: 0 0 40px 0px rgba(225, 224, 224, 0.219);
+  box-shadow: 0 0 40px 0px rgba(255, 255, 255, 0.219);
   margin-top: 50px;
 }
 
@@ -382,7 +382,7 @@ section.ferramentas h2.titulo span {
 
 section.softskills {
   padding: 50px 4%; 
-  box-shadow: 0 0 40px 0px rgba(225, 224, 224, 0.219);
+  box-shadow: 0 0 40px 0px rgba(219, 219, 219, 0.219);
   margin-top: 50px;
 }
 
@@ -439,7 +439,7 @@ section.softskills h2.titulo span {
 /*ESTILO DA SEÇÃO PROJETO*/
 section.projeto {
   padding: 50px 4%;
-  box-shadow: 0 0 40px 0px  rgba(166, 166, 166, 0.219);/*deslocam horiz, deslocam vert, desfoque, espalhamento, cor*/
+  box-shadow: 0 0 40px 0px rgba(195, 194, 194, 0.219);/*deslocam horiz, deslocam vert, desfoque, espalhamento, cor*/
 }
 
 section.projeto .titulo {
@@ -494,7 +494,7 @@ section.projeto .flex {
 /*ESTILO DA SEÇÃO FORMULÁRIO*/
 section.formulario {
   padding: 50px 4%;
-  box-shadow: 0 0 40px 0px rgba(166, 166, 166, 0.219);
+  box-shadow: 0 0 40px 0px rgba(225, 224, 224, 0.219);
 }
 
 section.formulario h2.titulo span {
