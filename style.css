@@ -280,7 +280,7 @@ section.sobre .flex {
 .github,
 .email {
   background-color: #8800ff;
-  box-shadow: 0px 0px 8px #c583ff; 
+  box-shadow: 0px 0px 8px #61128c; 
 }
 
 /* Sombra ao passar o mouse. */
@@ -320,7 +320,7 @@ section.habilidade h2.titulo span {
 }
 
 .habilidade .habilidade-box:hover {
-   transform: translateY(-8px) scale(1.05);
+  transform: translateY(-8px) scale(1.05);
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -406,6 +406,16 @@ section.softskills h2.titulo span {
   margin-top: 10px;
   transition: 0.2s;
   box-shadow: 0 0 20px rgba(134, 133, 133, 0.492); 
+  animation: floatUpDown 3s ease-in-out infinite;
+}
+
+@keyframes floatUpDown {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
 }
 
 .softskills .soft-box:hover {
