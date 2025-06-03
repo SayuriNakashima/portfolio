@@ -1,7 +1,6 @@
-
 * {
-  margin: 10; 
-  padding: 0; 
+  margin: 10;
+  padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
@@ -19,13 +18,13 @@ h2.titulo {
 /*ESTILO DO CORPO DA PÁGINA*/
 body {
   background-color: white; /* Alterado de preto para branco */
-  height: 100vh; 
+  height: 100vh;
   width: 60;
 }
 /*ESTILO DA INTERFACE - Centraliza e limita largura o conteúdo na tela.*/
 .interface {
-  max-width: 1280px; 
-  margin: 0 auto; 
+  max-width: 1280px;
+  margin: 0 auto;
 }
 /*ESTILO FLEX - Aplica layout flexível para elementos dentro de uma div.*/
 .flex {
@@ -34,25 +33,25 @@ body {
 
 /*BOTÃO DE CONTATO - Estilo para o botão de contato.*/
 .btn-contato button {
-  padding: 10px 30px; 
+  padding: 10px 30px;
   font-size: 20px;
   font-weight: 500;
   background-color: #8800ff;
   border: 0;
   border-radius: 50px;
   cursor: pointer;
-  color: rgb(255, 255, 255); 
+  color: rgb(255, 255, 255);
   transition: 0.2s;
   text-decoration: none;
   margin: 0 auto;
-  display: block; 
+  display: block;
 }
 
 /*EFEITO HOVER - Efeito quando o mouse passa sobre o botão.*/
 button:hover,
 form .btn-enviar input:hover {
   box-shadow: 0px 0px 9px #4e0361;
-  transform: scale(1.05); 
+  transform: scale(1.05);
 }
 
 /*ESTILO DO CABEÇALHO - Configura o cabeçalho da página.*/
@@ -68,16 +67,16 @@ header > .interface {
 }
 /*LINKS DO MENU - Estiliza os links do cabeçalho.*/
 header a {
-  color: rgb(118, 118, 118); 
+  color: rgb(118, 118, 118);
   text-decoration: none;
   display: inline-block;
   transition: 0.2s;
 }
 /*EFEITO HOVER NOS LINKS DO MENU - Estilo quando o mouse passa sobre o link.*/
 header nav.menu-desktop a:hover {
-  color: rgb(0, 0, 0); 
+  color: rgb(0, 0, 0);
   text-decoration: none;
-  transform: scale(1.05); 
+  transform: scale(1.05);
 }
 /*MENU DO CABEÇALHO - Estilo para os itens do menu (sem marcadores).*/
 header nav ul {
@@ -97,7 +96,7 @@ header nav.menu-desktop li {
   line-height: 1;
 }
 .menu-mobile {
-  background-color: white; 
+  background-color: white;
   height: 100vh;
   position: fixed;
   top: 0;
@@ -130,7 +129,7 @@ header nav.menu-desktop li {
 }
 
 .menu-mobile nav li a {
-  color: black; 
+  color: black;
   font-size: 20px;
   font-weight: 300;
   padding: 20px 8%;
@@ -165,14 +164,14 @@ section.toposite .flex {
 }
 
 .toposite h1 {
-  color: #000000; 
+  color: #000000;
   font-size: 50px;
   line-height: 10px;
   text-align: center;
 }
 
 .toposite h4 {
-  color: black; 
+  color: black;
   text-align: center;
   font-size: 25px;
 }
@@ -188,7 +187,7 @@ section.toposite .flex {
 }
 
 .toposite .txt-topo-site h2 {
-  color: black; 
+  color: black;
   margin: 40px 0px;
   text-align: center;
 }
@@ -212,7 +211,7 @@ section.sobre .flex {
 
 .sobre .txt-sobre h2 {
   font-size: 40px;
-  color: #8800ff; 
+  color: #8800ff;
   text-align: center;
   margin-bottom: 30px;
 }
@@ -220,17 +219,17 @@ section.sobre .flex {
 /* Parte em destaque do título (o ponto final) */
 .sobre .txt-sobre h2 span {
   font-size: 40px;
-  color: #000000;  
+  color: #000000;
   text-align: center;
 }
 
 /* Parágrafos do texto */
 .sobre .txt-sobre p {
   margin: 20px 0; /* espaço em cima e embaixo */
-  text-align: justify; 
+  text-align: justify;
   line-height: 1.6;
   font-size: 15px;
-  color: black; 
+  color: black;
 }
 
 .sobre .img-sobre img {
@@ -251,10 +250,10 @@ section.sobre .flex {
 /* Estiliza os ícones de redes sociais. */
 .btn-social {
   margin-top: 60px;
-  display: flex; 
-  justify-content: center; 
+  display: flex;
+  justify-content: center;
   gap: 20px; /* Espaço entre os ícones */
-  color: black; 
+  color: black;
   font-size: 20px;
   transition: 0.3s;
 }
@@ -263,35 +262,33 @@ section.sobre .flex {
 .social-icon {
   display: flex; /* alinhar ícone no centro do círculo */
   align-items: center;
-  justify-content: center; 
+  justify-content: center;
   width: 40px; /* largura da icone */
   height: 40px; /* altura icone */
-  border-radius: 50%; 
+  border-radius: 50%;
   font-size: 26px; /* tamanho do ícone */
   color: rgb(255, 255, 255);
-  transition: 0.3s ease-in-out; 
-  text-decoration: none; 
+  transition: 0.3s ease-in-out;
+  text-decoration: none;
 }
-
-
 
 .insta,
 .linkedin,
 .github,
 .email {
   background-color: #8800ff;
-  box-shadow: 0px 0px 8px #61128c; 
+  box-shadow: 0px 0px 8px #61128c;
 }
 
 /* Sombra ao passar o mouse. */
 .social-icon:hover {
-  transform: scale(1.15); 
+  transform: scale(1.15);
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
 }
 
 /*ESTILO DA SEÇÃO HABILIDADE*/
 section.habilidade {
-  padding: 50px 4%; 
+  padding: 50px 4%;
   box-shadow: 0 0 40px 0px rgba(225, 224, 224, 0.219);
   margin-top: 50px;
 }
@@ -300,23 +297,20 @@ section.habilidade .flex {
   gap: 35px;
   margin-top: 60px;
   margin-bottom: 40px;
-
 }
 
 section.habilidade h2.titulo span {
   color: #8800ff;
 }
 
-
 .habilidade .habilidade-box {
-  color: black; 
+  color: black;
   padding: 30px;
   border-radius: 20px;
   font-size: 15px;
   margin-top: 30px;
   transition: 0.2s;
-  box-shadow: 0 0 20px rgba(134, 133, 133, 0.492); 
-  
+  box-shadow: 0 0 20px rgba(134, 133, 133, 0.492);
 }
 
 .habilidade .habilidade-box:hover {
@@ -335,9 +329,8 @@ section.habilidade h2.titulo span {
   margin: 15px 0;
 }
 
-
 section.ferramentas {
-  padding: 50px 4%; 
+  padding: 50px 4%;
   box-shadow: 0 0 40px 0px rgba(255, 255, 255, 0.219);
   margin-top: 50px;
 }
@@ -346,22 +339,20 @@ section.ferramentas .flex {
   gap: 35px;
   margin-top: 60px;
   margin-bottom: 40px;
-
 }
 
 section.ferramentas h2.titulo span {
   color: #8800ff;
 }
 
-
 .ferramentas .ferramentas-box {
-  color: black; 
+  color: black;
   padding: 20px;
   border-radius: 20px;
   font-size: 15px;
   margin-top: 5px;
   transition: 0.2s;
-  box-shadow: 0 0 20px rgba(134, 133, 133, 0.492); 
+  box-shadow: 0 0 20px rgba(134, 133, 133, 0.492);
 }
 
 .ferramentas .ferramentas-box:hover {
@@ -381,7 +372,7 @@ section.ferramentas h2.titulo span {
 }
 
 section.softskills {
-  padding: 50px 4%; 
+  padding: 50px 4%;
   box-shadow: 0 0 40px 0px rgba(219, 219, 219, 0.219);
   margin-top: 50px;
 }
@@ -390,33 +381,30 @@ section.softskills .flex {
   gap: 30px;
   margin-top: 60px;
   margin-bottom: 40px;
-
 }
 
 section.softskills h2.titulo span {
   color: #8800ff;
 }
 
-
 .softskills .soft-box {
-  color: black; 
+  color: black;
   padding: 25px;
   border-radius: 20px;
   font-size: 15px;
   margin-top: 10px;
   transition: 0.2s;
-  box-shadow: 0 0 20px rgba(134, 133, 133, 0.492); 
+  box-shadow: 0 0 20px rgba(134, 133, 133, 0.492);
 }
-
 
 .softskills .soft-box:hover {
   transform: translateY(-8px) scale(1.05);
-  box-shadow:0 6px 20px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .softskills .soft-box i {
-  font-size:1.8rem;
+  font-size: 1.8rem;
   align-items: center;
 }
 
@@ -430,11 +418,11 @@ section.softskills h2.titulo span {
 /*ESTILO DA SEÇÃO PROJETO*/
 section.projeto {
   padding: 50px 4%;
-  box-shadow: 0 0 40px 0px rgba(195, 194, 194, 0.219);/*deslocam horiz, deslocam vert, desfoque, espalhamento, cor*/
+  box-shadow: 0 0 40px 0px rgba(195, 194, 194, 0.219); /*deslocam horiz, deslocam vert, desfoque, espalhamento, cor*/
 }
 
 section.projeto .titulo {
-  color: black; 
+  color: black;
 }
 
 section.projeto h2.titulo span {
@@ -449,7 +437,7 @@ section.projeto .flex {
 .img-projeto {
   width: 360px;
   height: 460px;
-  background-size: cover; 
+  background-size: cover;
   background-position: 100% 0%; /*horiz, vertic,*/ /*posição*/
   transition: 8s;
   border-radius: 40px;
@@ -462,7 +450,7 @@ section.projeto .flex {
 }
 /*camada semitransparente*/
 .overlay {
-  position: absolute; 
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
@@ -474,7 +462,7 @@ section.projeto .flex {
   justify-content: center;
   font-size: 24px;
   font-weight: 600;
-  color: rgb(255, 255, 255); 
+  color: rgb(255, 255, 255);
   opacity: 0;
   transition: 1.5s;
 }
@@ -493,12 +481,12 @@ section.formulario h2.titulo span {
 }
 
 form {
-  max-width: 500px; 
+  max-width: 500px;
   margin-top: 40px;
-  margin: 0 auto; 
+  margin: 0 auto;
   display: flex;
   justify-content: center;
-  flex-direction: column; 
+  flex-direction: column;
   gap: 10px;
 }
 
@@ -617,5 +605,4 @@ footer p {
   section.projeto .flex {
     gap: 40px;
   }
-
 }
