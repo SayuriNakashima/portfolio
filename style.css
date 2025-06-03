@@ -297,7 +297,7 @@ section.habilidade {
 }
 
 section.habilidade .flex {
-  gap: 70px;
+  gap: 35px;
   margin-top: 60px;
   margin-bottom: 40px;
 
@@ -315,12 +315,12 @@ section.habilidade h2.titulo span {
   font-size: 15px;
   margin-top: 30px;
   transition: 0.2s;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.492); 
+  box-shadow: 0 0 20px rgba(134, 133, 133, 0.492); 
   
 }
 
 .habilidade .habilidade-box:hover {
-    transform: translateY(-4px);
+  transform: translateY(-4px);
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
 }
 
@@ -334,50 +334,6 @@ section.habilidade h2.titulo span {
   margin: 15px 0;
 }
 
-section.softskills {
-  padding: 50px 4%; 
-  box-shadow: 0 0 40px 0px rgba(225, 224, 224, 0.219);
-  margin-top: 50px;
-}
-
-section.softskills .flex {
-  gap: 70px;
-  margin-top: 60px;
-  margin-bottom: 40px;
-
-}
-
-section.softskills h2.titulo span {
-  color: #8800ff;
-}
-
-
-.softskills .soft-box {
-  color: black; 
-  padding: 25px;
-  border-radius: 20px;
-  font-size: 15px;
-  margin-top: 10px;
-  transition: 0.2s;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.492); 
-}
-
-.softskills .soft-box:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
-}
-
-.softskills .soft-box i {
-  font-size:1.8rem;
-  align-items: center;
-}
-
-.softskills .soft-box h3 {
-  margin: 0;
-  font-size: 1.2rem;
-  color: #333;
-  font-weight: 600;
-}
 
 section.ferramentas {
   padding: 50px 4%; 
@@ -386,7 +342,7 @@ section.ferramentas {
 }
 
 section.ferramentas .flex {
-  gap: 70px;
+  gap: 35px;
   margin-top: 60px;
   margin-bottom: 40px;
 
@@ -404,7 +360,7 @@ section.ferramentas h2.titulo span {
   font-size: 15px;
   margin-top: 5px;
   transition: 0.2s;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.492);  
+  box-shadow: 0 0 20px rgba(134, 133, 133, 0.492); 
 }
 
 
@@ -421,6 +377,51 @@ section.ferramentas h2.titulo span {
 .ferramentas .ferramentas-box h3 {
   font-size: 20px;
   margin: 15px 0;
+}
+
+section.softskills {
+  padding: 50px 4%; 
+  box-shadow: 0 0 40px 0px rgba(225, 224, 224, 0.219);
+  margin-top: 50px;
+}
+
+section.softskills .flex {
+  gap: 30px;
+  margin-top: 60px;
+  margin-bottom: 40px;
+
+}
+
+section.softskills h2.titulo span {
+  color: #8800ff;
+}
+
+
+.softskills .soft-box {
+  color: black; 
+  padding: 25px;
+  border-radius: 20px;
+  font-size: 15px;
+  margin-top: 10px;
+  transition: 0.2s;
+  box-shadow: 0 0 20px rgba(134, 133, 133, 0.492); 
+}
+
+.softskills .soft-box:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.softskills .soft-box i {
+  font-size:1.8rem;
+  align-items: center;
+}
+
+.softskills .soft-box h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #333;
+  font-weight: 600;
 }
 
 /*ESTILO DA SEÇÃO PROJETO*/
