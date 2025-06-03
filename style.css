@@ -320,8 +320,9 @@ section.habilidade h2.titulo span {
 }
 
 .habilidade .habilidade-box:hover {
-  transform: translateY(-4px);
+   transform: translateY(-8px) scale(1.05);
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .habilidade .habilidade-box i {
@@ -363,10 +364,10 @@ section.ferramentas h2.titulo span {
   box-shadow: 0 0 20px rgba(134, 133, 133, 0.492); 
 }
 
-
 .ferramentas .ferramentas-box:hover {
-    transform: translateY(-4px);
+  transform: translateY(-8px) scale(1.05);
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .ferramentas .ferramentas-box i {
@@ -408,8 +409,9 @@ section.softskills h2.titulo span {
 }
 
 .softskills .soft-box:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  transform: translateY(-8px) scale(1.05);
+  box-shadow:0 6px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .softskills .soft-box i {
