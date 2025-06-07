@@ -1,0 +1,69 @@
+    /*RESPONSIVO - Ajustes para telas menores (max-width: 1232px)*/
+    @media screen and (max-width: 1230px) {
+    /* CLASSES GERAIS */
+    .flex {
+        flex-direction: column;
+    }
+
+    /* CABEÇALHO */
+    .menu-desktop,
+    .btn-contato {
+        display: none;
+    }
+
+    /* TOPO SITE */
+    .toposite h1 {
+        font-size: 1.5rem;
+    }
+    section.toposite {
+        padding: 20px 6%;
+    }
+
+    /* SOBRE */
+    .sobre .img-sobre img {
+        width: 90%;
+        display: block;
+        margin: 0 auto;
+    }
+    section.sobre {
+        padding: 6%;
+    }
+
+    .social-icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    /* ESPECIALIDADE */
+    section.habilidade {
+        padding: 30px 6%;
+    }
+
+    /* LOGO */
+    .logo {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        padding: 1rem 0;
+        height: 140px;
+        width: 145px;
+    }
+    .logo img {
+        width: 150px;
+        height: auto;
+    }
+
+    /* PORTFÓLIO */
+    section.projeto {
+        padding: 60px 6%;
+    }
+    .img-projeto {
+        width: 100%;
+        max-width: 320px;
+        margin: 0 auto;
+    }
+    section.projeto .flex {
+        gap: 40px;
+    }
+    }
